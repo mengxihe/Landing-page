@@ -1,6 +1,7 @@
 body{
     font-family: Helvetica, sans-serif;
     margin:0;
+    
 }
 
 .logo{
@@ -17,8 +18,8 @@ body{
     align-items: center;
     margin: 0px;
     border: 0px;
-    padding: 0 160px;
-    background-color: #cdcdcd;
+    padding: 20px 160px;
+    background-color: #aeaeae;
 }
 
 a{
@@ -33,4 +34,42 @@ ul{
     gap:30px;
     margin: 0px;
     padding: 0px;
+}
+
+.container-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aeaeae;
+    padding: 60px 160px;
+}
+
+.one-left{
+    display: flex;
+    width: 300px;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap:10px;
+}
+
+.image-one{
+    width: 300px;
+}
+
+.title-one{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+.text-one{
+    color: #E5E7EB
+}
+
+.button-one{
+    color: white;
+    background:#3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 12px;
 }
