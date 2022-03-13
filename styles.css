@@ -1,7 +1,8 @@
 body{
     font-family: Helvetica, sans-serif;
     margin:0;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .logo{
@@ -128,7 +129,47 @@ ul{
 
 .container-four{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap:52px;
     background-color: #3882F6;
+    padding: 30px 80px;
+    margin: 90px 160px;
+    border-radius: 5px;
+}
+.action{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text-four{
+    font-size: 14px;
+    color: white;
+}
+
+.button{
+    color: white;
+    background:#3882F6;
+    border-radius: 8px;
+    padding: 3px 24px;
+    border-color: white;
+    border: 1px solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
 }
