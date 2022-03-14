@@ -87,6 +87,7 @@ ul{
     justify-content: center;
     gap:52px;
     margin-bottom: 60px;
+    flex: 1;
 }
 
 .info{
@@ -96,6 +97,7 @@ ul{
     align-items: center;
     text-align: center;
     color: rgb(80, 80, 80);
+    
 }
 
 .info-img{
