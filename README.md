@@ -1,2 +1,2 @@
 # Landing-page
-A landing page built with html and css. 
+Built A landing page built with html and css.
