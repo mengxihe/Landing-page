@@ -1,2 +1,2 @@
 # Landing-page
-First landing page built with html and css.
+Made a landing page built with html and css.
